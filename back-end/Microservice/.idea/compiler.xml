@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="FileService" />
+        <module name="UserService" />
+        <module name="PostAndReplyService" />
+        <module name="CompositeService" />
+        <module name="AuthService" />
+        <module name="History" />
+        <module name="Eureka" />
+        <module name="MessageService" />
+        <module name="GatewayService" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="HousingService" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="AuthService" options="-parameters" />
+      <module name="CompositeService" options="-parameters" />
+      <module name="Eureka" options="-parameters" />
+      <module name="FileService" options="-parameters" />
+      <module name="GatewayService" options="-parameters" />
+      <module name="History" options="-parameters" />
+      <module name="HousingService" options="-parameters" />
+      <module name="MessageService" options="-parameters" />
+      <module name="PostAndReplyService" options="-parameters" />
+      <module name="UserService" options="-parameters" />
+    </option>
+  </component>
+</project>

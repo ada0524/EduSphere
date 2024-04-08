@@ -1,0 +1,51 @@
+spring:
+  application:
+    name: user-service
+  mvc:
+    servlet:
+      path: /user-service # // localhost:8080/user-service/user
+  datasource:
+    # url: jdbc:mysql://edusphere-user.mysql.database.azure.com:3306/information_schema?serverTimezone=UTC&useSSL=true&requireSSL=false
+    url: jdbc:mysql://edusphere-user.mysql.database.azure.com:3306/edusphere_user?serverTimezone=UTC&useSSL=true&requireSSL=false
+    username: username
+    password: Password!
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+#  rabbitmq:
+#    host: localhost
+#    port: 5672
+#    username: guest
+#    password: guest
+#    template:
+#      exchange: email-exchange
+#      routing-key: verificationKey
+#      default-receive-queue: email-queue
+#  mail:
+#    host: smtp.gmail.com
+#    port: 587
+#    username: forum5668@gmail.com
+#    password: cotvlzczmtlrquts
+#    test-connection: true
+#    properties:
+#      mail:
+#        smtp:
+#          auth: true
+#          starttls:
+#            enable: true
+#            required: true
+#          ssl:
+#            trust: smtp.gmail.com
+#    protocol: smtp
+#    default-encoding: UTF-8
+
+server:
+  port: 0
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
