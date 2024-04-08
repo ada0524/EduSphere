@@ -6,7 +6,6 @@ import org.springframework.stereotype.Component;
 
 import java.util.concurrent.TimeUnit;
 
-
 @Component
 public class RedisVerificationCodeManager {
     private static final long VERIFICATION_CODE_DURATION = 300000; // Verification code validity duration: 5 minutes
