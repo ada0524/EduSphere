@@ -16,6 +16,7 @@ Edusphere is a user-centric social media platform primarily focused on college s
 - Post management by authors and administrators
 
 ### Overall Design Diagram
-![Untitled Diagram.drawio-3.png](..%2F..%2FDownloads%2FUntitled%20Diagram.drawio-3.png)
+![Untitled Diagram.drawio-3.png](assets%2FUntitled%20Diagram.drawio-3.png)
+
 ### Design Diagram of Core Microservices
-![Untitled Diagram.drawio.png](..%2F..%2FDownloads%2FUntitled%20Diagram.drawio.png)
+![Untitled Diagram.drawio.png](assets%2FUntitled%20Diagram.drawio.png)
